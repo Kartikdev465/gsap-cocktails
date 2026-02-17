@@ -13,8 +13,18 @@ const Cocktails = () => {
             }
         })
         parallaxTimeline
-        .from('#c-left-leaf', { x:-100 ,y: 100 })
-        .from('#c-right-leaf', { x:100, y: 100 })
+  .from('#c-left-leaf', {
+    x: -100,
+    y: 100,
+    duration: 1,
+    ease: 'power2.out'
+  })
+  .from('#c-right-leaf', {
+    x: 100,
+    y: 100,
+    duration: 1,
+    ease: 'power2.out'
+  }, "<");
     })
   return (
     <section id='cocktails' className='noisy'>
