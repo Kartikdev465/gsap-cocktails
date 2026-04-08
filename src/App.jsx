@@ -18,7 +18,7 @@ const App = () => {
         <About />
         <Art />
         <Menu />
-        
+        <Contact />
     </main>
     
   )
